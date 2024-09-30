@@ -30,7 +30,8 @@
       <a class="navbar-brand" href="#"><img src="./Images/logo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon d-flex justify-content-center align-items-center"><i class="fa-solid fa-bars"></i></span>
+       
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
@@ -158,37 +159,50 @@
       <div class="item active" style="background-image: url(./Images/Portfolioimg/Gymapp.jpg);">
         <div class="item-desc">
           <h3>Gym Master App</h3>
-          <p>Gym Master App, designed to streamline workouts, track progress, and provide personalized fitness plans for an optimized training experience</p>
+          <p class="p-0">Gym Master App, designed to streamline workouts, track progress, and provide personalized fitness plans for
+            an optimized training experience</p>
+            <a href="https://www.figma.com/proto/FIf8KX9Br3Vr3l8T3BYebW/Gym-Application-Design?node-id=1-3923&starting-point-node-id=1%3A3939" target="_blank">Show More</a>
         </div>
       </div>
-      <div class="item" style="background-image: url(./Images/Portfolioimg/Movieapp.jpg);">
-        <div class="item-desc">
+      <div class="item">
+        <img src="/Images/Portfolioimg/Movieapp.jpg" alt="">
+        <!-- <div class="item-desc">
           <h3>Movie Booking App</h3>
-          <p>Movie Booking App designed for seamless ticket booking, real-time show updates, and personalized recommendations, offering an effortless user experience.</p>
-        </div>
+          <p class="p-0">Movie Booking App designed for seamless ticket booking, real-time show updates, and personalized
+            recommendations, offering an effortless user experience.</p>
+            <a href="">Show More</a>
+        </div> -->
       </div>
       <div class="item" style="background-image: url(./Images/Portfolioimg/Stockmarketapp.jpg);">
         <div class="item-desc">
           <h3>Stock Market App</h3>
-          <p>Stock Market App designed to offer real-time data, track investments, analyze trends, and provide a user-friendly trading experience.</p>
+          <p class="p-0">Stock Market App designed to offer real-time data, track investments, analyze trends, and provide a
+            user-friendly trading experience.</p>
+            <a href="">Show More</a>
         </div>
       </div>
       <div class="item" style="background-image: url(./Images/Portfolioimg/Gymsoftware.jpg);">
         <div class="item-desc">
           <h3>Gym Master Web</h3>
-          <p>Gym Master Web design features an intuitive layout, easy navigation, and engaging visuals, enhancing user experience for fitness enthusiasts.</p>
+          <p class="p-0">Gym Master Web design features an intuitive layout, easy navigation, and engaging visuals, enhancing user
+            experience for fitness enthusiasts.</p>
+            <a href="">Show More</a>
         </div>
       </div>
       <div class="item" style="background-image: url(./Images/Portfolioimg/Travelweb.jpg);">
         <div class="item-desc">
           <h3>Travelling Web</h3>
-          <p>Traveling Web design offers seamless navigation, captivating visuals, and personalized itineraries, making it easy for users to plan their adventures.</p>
+          <p class="p-0">Traveling Web design offers seamless navigation, captivating visuals, and personalized itineraries, making
+            it easy for users to plan their adventures.</p>
+            <a href="">Show More</a>
         </div>
       </div>
       <div class="item" style="background-image: url(./Images/Portfolioimg/DatingApp.jpg);">
         <div class="item-desc">
           <h3>Dating App</h3>
-          <p>Dating App design focuses on user-friendly profiles, advanced matching algorithms, and secure messaging, enhancing connections for meaningful relationships.</p>
+          <p class="p-0">Dating App design focuses on user-friendly profiles, advanced matching algorithms, and secure messaging,
+            enhancing connections for meaningful relationships.</p>
+            <a href="">Show More</a>
         </div>
       </div>
     </div>
@@ -299,7 +313,7 @@
       </div>
     </div>
   </section>
-   <section id="contactform">
+  <section id="contactform">
     <div class="container mt-5">
       <div class="row text-center">
         <h6 class="mt-5">CONTACT</h6>
@@ -389,6 +403,7 @@
   <script>
     $(".custom-carousel").owlCarousel({
       autoWidth: true,
+      center: true,
       loop: true
     });
     $(document).ready(function () {
