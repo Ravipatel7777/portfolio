@@ -48,7 +48,9 @@ nav.navbar.navbar-expand-lg {
   top: 0px;
 }
 
-
+.navbar-brand>img{
+  max-height: 60px;
+}
 
 
 
@@ -98,10 +100,12 @@ nav.navbar.navbar-expand-lg {
 #navbar.scrolled {
   background-color: #dde6ec;
   /* Change to your desired background color */
+  
 }
 
 nav#navbar {
   z-index: 999;
+
 }
 
 .fa-arrow-up:before {
@@ -847,11 +851,6 @@ p {
   width: auto;
 }
 
-/* .Infordata {
-  background: url(../Images/footer-circle-bg.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-} */
  .contact-title{
   font-weight: bold;
   color: #464646;
@@ -865,4 +864,15 @@ p {
     justify-content: center;
     border-radius: 20%;
     color: #334a59;
+ }
+ .navbar-toggler{
+  border: 1px solid black !important;
+ }
+ .submitbtn{
+  background: transparent;
+  border: 1px solid rgb(200, 200, 200) !important;
+  
+ }
+ .nav-link{
+  font-weight: bold;
  }
